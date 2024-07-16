@@ -94,7 +94,7 @@ export function Markdown({ content }: { content: string }) {
           ) {
             return (
               <span className="block w-full text-center my-4">
-                <Image scale="0.75" rounded={true} />
+                <Image scale="0.75" rounded={false} />
               </span>
             );
           } else {
